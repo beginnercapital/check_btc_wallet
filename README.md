@@ -12,7 +12,7 @@ txs_data1 = check_bitcoin_wallet(wallet_address)
 >> 
 >> 5 Most Recent Transactions:
 >> Hash: efa987c8a64e528bd3091802f45434f3c7df81f66ee48e9a046da890d64654d6
->> Time (EST): 2024-11-12 20:27:26 UTC-05:00
+>> Time (EST): 2024-11-12 20:27:26
 >> Amount: 0.00000600 BTC
 >> ...
 ```
