@@ -30,8 +30,7 @@ def check_bitcoin_wallet(address):
             tx_time_est = tx_time.astimezone(timezone(timedelta(hours=-5)))  # Convert to EST
             tx_amount = sum(output['value'] for output in tx['out']) / 100000000  # Convert satoshis to BTC
             print(f"Hash: {tx_hash}")
-            # print(f'Time (UTC): {tx_time.strftime("%Y-%m-%d %H:%M:%S %Z")}')
-            print(f'Time (EST): {tx_time_est.strftime("%Y-%m-%d %H:%M:%S %Z")}')
+            print(f'Time (EST): {tx_time_est.strftime("%Y-%m-%d %H:%M:%S")}')
             print(f"Amount: {tx_amount:.8f} BTC")
             print("---")
     
